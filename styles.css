@@ -1,0 +1,311 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inder, sans-serif;
+    color: whitesmoke;
+    margin: 0;
+    background-color: teal;
+}
+
+header {
+    /*border: solid 1px white;
+    color: white;*/
+    height: 12vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+h1, h2, h3 {
+    font-family: Josefin Sans, sans-serif;
+    text-decoration: none;
+}
+
+header > a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+h1 > span, h2 > span, h3 > span {
+    color: teal;
+}
+
+nav {
+   /* border: solid 1px white;*/
+    width: 55vw;
+    margin-right: -5vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    font-style: normal;
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: teal;
+}
+
+#about {
+    /*border: solid 1px white;*/
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about > img {
+    /*border: solid 1px white;*/
+    width: 30vw;
+}
+
+.aboutText {
+    /*border: 1px solid white;*/
+    width: 45vw;
+    color:rgb(50, 50, 50);
+    font-size: 3vh;
+}
+
+h2 {
+    font-size: 3vh;
+}
+
+
+h3 {
+    font-size: 8vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#projects {
+    padding: 2vh 8vw;
+    padding-bottom: 8vh;
+    background-color: lightgray;
+}
+
+#projects > h2 {
+    margin-bottom: 25px;
+    font-size: 5vh;
+}
+
+.projectGrid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectTile {
+    background-color: teal;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 38vw;
+    height: 38vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.projectTile:hover {
+    opacity: 0.8;
+}
+
+.projectTile > h3, .projectTile > p {
+    color:whitesmoke;
+}
+
+.projectTile > h3 {
+    align-self: flex-start;
+    font-size: 6vh;
+}
+
+.projectTile > img {
+    width: 80%;
+    align-self: center;
+}
+
+.projectTile > p {
+    font-size: 3vh;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    align-self: flex;
+}
+
+#experience {
+    padding: 2vh 8vw;
+    padding-bottom: 6vh;
+    background-color: whitesmoke;
+}
+
+#experience h2 > span{
+    font-size: 5vh;
+}
+
+.experienceItem {
+    padding-bottom: 2vh;
+    display: flex;
+    height: 15vh;
+    align-items: center;
+}
+
+#resume {
+    padding: 1vh 2vw;
+    color: rgb(50, 50, 50);
+    background-color: lightgray;
+    text-decoration: none;
+    font-size: 25px;
+    border-style: solid;
+}
+
+#resume:hover {
+    color: whitesmoke;
+    background-color: teal;
+}
+
+#contact {
+    padding: 5vh 8vw;
+}
+
+#contact h2 > span{
+    color: whitesmoke;
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#footerIcon {
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1vw;
+    margin-bottom: 10px;
+}
+
+.contactSection p{
+    color: lightgray;
+}
+
+
+
+.intro1 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(50, 50, 50);
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+.intro1 h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.intro1 p {
+    padding-left: 8vw;
+    padding-right: 8vw;
+    font-size: 20px;
+    text-align: center;
+}
+
+.explain1 {
+    background-color:lightgray;
+    color: rgb(50, 50, 50);
+    display: flex;
+    margin-top: 10px;
+}
+
+.imgsteer {
+    padding-left: 8vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    width: 40vw;
+}
+
+.imgsteer > img{
+    width: 100%;
+}
+
+.explainText {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.explain1 h1 {
+    font-size: 40px;
+    margin-left: 25%;
+}
+
+.explain1 ul {
+    font-size: 20px;
+}
+
+.explain1 p {
+    font-size:20px;
+}
+
+.rundown {
+    background-color:whitesmoke;
+    color: rgb(50, 50, 50);
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.rundown h1 {
+    font-size: 50px;
+    margin-left: 150px;
+}
+
+.rundown ul {
+    font-size: 20px;
+    margin-right: 150px;
+}
+
+/*Music Player
+.explain2 {
+    background-color:rgb(16, 16, 56);
+    color: white;
+    display: flex;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: red;
+    justify-content: space-between;
+}
+
+.imgmus2 {
+    width: 20%;
+}
+
+.imgmus {
+    width: 20.6%;
+}
+
+.explain2 h1 {
+    font-size: 70px;
+    margin-left: 25%;
+}
+
+.explain2 ol {
+    font-size: 30px;
+}
+
+#explain22 {
+    background-color:rgb(218, 218, 239);
+    color: black;
+}
+*/
+
+html {
+    scroll-behavior: smooth;
+}
